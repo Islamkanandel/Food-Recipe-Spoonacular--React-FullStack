@@ -40,6 +40,12 @@ app.post("/api/recipes/favourite", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send(
+    '<h2>Recipe App Backend is running! 🚀<br>Visit <a href="https://github.com/arnobt78/Recipe-Web-App--React-FullStack" target="_blank">GitHub Repo</a> for documentation.</h2>'
+  );
+});
+
 app.get("/api/recipes/favourite", async (req, res) => {
   try {
     const recipes = await prismaClient.favouriteRecipes.findMany();
