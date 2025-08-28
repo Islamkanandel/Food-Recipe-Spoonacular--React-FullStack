@@ -1,4 +1,4 @@
-# Recipe App - Full Stack Project (React, Node.js, PostgreSQL)
+# Recipe App - FullStack React, Node.js, PostgreSQL Project
 
 A modern, full-stack recipe management application. Search for recipes, view details, and manage favourites with a beautiful React frontend and a robust Node.js/Express backend powered by PostgreSQL and the Spoonacular API.
 
