@@ -4,6 +4,9 @@
 
 A robust Node.js backend for a full-stack recipe management application. This backend provides RESTful API endpoints for searching recipes, viewing summaries, and managing user favourites, powered by Express, Prisma, PostgreSQL, and the Spoonacular API.
 
+- **Frontend-Live-Demo:** [https://food-recipe-spoonacular.netlify.app/](https://food-recipe-spoonacular.netlify.app/)
+- **Backend-Live-Demo:** [https://recipe-app-glt5.onrender.com](https://recipe-app-glt5.onrender.com)
+
 ---
 
 ## Table of Contents
