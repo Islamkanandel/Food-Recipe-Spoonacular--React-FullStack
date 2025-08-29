@@ -42,7 +42,7 @@ This frontend is the user interface for the Recipe App. It allows users to:
 ```bash
 recipe-app-frontend/
 ├── public/
-│   ├── hero-image.jpg
+│   ├── hero-image.webp
 │   └── vite.svg
 ├── src/
 │   ├── App.tsx           # Main app logic and UI

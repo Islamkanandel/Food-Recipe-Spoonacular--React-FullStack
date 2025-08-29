@@ -48,7 +48,7 @@ recipe-app/
 │   ├── .env
 │   ├── package.json
 │   ├── public/
-│   │   ├── hero-image.jpg
+│   │   ├── hero-image.webp
 │   │   └── vite.svg
 │   └── src/
 │       ├── App.tsx
