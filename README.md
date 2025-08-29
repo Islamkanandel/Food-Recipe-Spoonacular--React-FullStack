@@ -1,4 +1,4 @@
-# Recipe App - FullStack React, Node.js, PostgreSQL Project
+# Food Recipe Spoonacular Website - React, Node.js, PostgreSQL FullStack Project
 
 ![Screenshot 2025-08-29 at 21 29 48](https://github.com/user-attachments/assets/07100269-526c-49d7-9045-36dd3008a1ce)
 ![Screenshot 2025-08-29 at 21 30 18](https://github.com/user-attachments/assets/4eeeaa08-13cb-4d5a-9759-1097d80bf290)
