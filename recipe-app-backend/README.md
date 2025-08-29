@@ -1,4 +1,4 @@
-# Recipe App Backend - React, Express.js PostgreSQL Project
+# Food Recipe Spoonacular Backend - React, Express.js PostgreSQL FullStack Project
 
 ---
 
