@@ -1,6 +1,13 @@
 # Recipe App - FullStack React, Node.js, PostgreSQL Project
 
+<img width="1175" height="734" alt="Screenshot 2025-08-29 at 21 29 48" src="https://github.com/user-attachments/assets/07100269-526c-49d7-9045-36dd3008a1ce" /> <img width="1169" height="710" alt="Screenshot 2025-08-29 at 21 30 18" src="https://github.com/user-attachments/assets/4eeeaa08-13cb-4d5a-9759-1097d80bf290" /> <img width="1182" height="737" alt="Screenshot 2025-08-29 at 21 30 35" src="https://github.com/user-attachments/assets/958fe32b-4201-4bbf-957d-f577b8ae10f1" />
+
+---
+
 A modern, full-stack recipe management application. Search for recipes, view details, and manage favourites with a beautiful React frontend and a robust Node.js/Express backend powered by PostgreSQL and the Spoonacular API.
+
+- **Frontend-Live-Demo:** [https://food-recipe-spoonacular.netlify.app/](https://food-recipe-spoonacular.netlify.app/)
+- **Backend-Live-Demo:** [https://recipe-app-glt5.onrender.com](https://recipe-app-glt5.onrender.com)
 
 ---
 
